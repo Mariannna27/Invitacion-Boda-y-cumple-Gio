@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Boda y Cumpleaños</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1529253355930-5f7f58c1e6f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    h1, h2, p {
+      margin: 0.5rem 0;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      margin: 1rem;
+      border-radius: 1rem;
+    }
+    .itinerary, .map, .rsvp, .gifts {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: #e91e63;
+      color: white;
+      padding: 1rem 2rem;
+      margin: 1rem auto;
+      border-radius: 2rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #c2185b;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+      border-radius: 0.5rem;
+    }
+    audio {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sergio Sánchez de la Cruz & Mariana Dorantes Pérez</h1>
+    <h2>¡Nos casamos!</h2>
+    <p>Y también celebramos el cumpleaños número 3 de nuestra hija Giomara Sánchez Dorantes</p>
+    <p><strong>27 de septiembre del 2025</strong></p>
+  </header>
+
+  <section class="itinerary">
+    <h2>Itinerario</h2>
+    <p><strong>5:00 PM:</strong> Boda Religiosa</p>
+    <p><strong>7:00 PM:</strong> Recepción, inicio de cena y Mariachi</p>
+    <p><strong>8:30 PM:</strong> Apertura de Mesa de Dulces</p>
+    <p><strong>9:00 PM:</strong> Vals</p>
+    <p><strong>10:00 PM:</strong> Sorpresa y Sonido Libre</p>
+    <p><strong>11:00 PM:</strong> Banda</p>
+    <p><strong>12:00 AM:</strong> Sonido Libre</p>
+  </section>
+
+  <section class="map">
+    <h2>Boda Religiosa</h2>
+    <p>Iglesia María Madre de Dios - 5:00 PM</p>
+    <p>Dirección: Calle 9 Nte 2601, Santiago Tula, 75720 Tehuacán, Pue.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.667645!2d-97.3915653!3d18.4591195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5c8a2dfb2ab2d%3A0x9b24d48deed0b7a3!2sCalle%209%20Nte%202601%2C%20Santiago%20Tula%2C%2075720%20Tehuac%C3%A1n%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1713093000000" allowfullscreen></iframe>
+  </section>
+
+  <section class="map">
+    <h2>Recepción</h2>
+    <p>Salón La Peña del Cid - 7:00 PM</p>
+    <p>Dirección: Av. Portes Gil 2203, San Nicolás Tetitzintla, 75710 Tehuacán, Pue.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.560839!2d-97.3888888!3d18.4620000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5c8b612345678%3A0xabcdef1234567890!2sAv.%20Portes%20Gil%202203%2C%20San%20Nicol%C3%A1s%20Tetitzintla%2C%2075710%20Tehuac%C3%A1n%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1713093200000" allowfullscreen></iframe>
+  </section>
+
+  <section class="rsvp">
+    <h2>Confirma tu asistencia</h2>
+    <p>Haz clic en el siguiente botón para confirmar y agregar número de invitados.</p>
+    <a class="button" href="https://forms.gle/tu_formulario_de_rsvp" target="_blank">Confirmar asistencia</a>
+  </section>
+
+  <section class="gifts">
+    <h2>Mesa de regalos</h2>
+    <a class="button" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51660329" target="_blank">Ver mesa de regalos</a>
+  </section>
+
+  <section>
+    <h2>Nuestra canción</h2>
+    <p>Perfect - Ed Sheeran</p>
+    <audio controls>
+      <source src="https://www.example.com/audio/perfect-ed-sheeran.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </section>
+</body>
+</html>
